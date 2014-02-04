@@ -1,0 +1,80 @@
+diff --git a/examples/calc/calc.js b/examples/calc/calc.js
+index 1cf93dd..1bbeb39 100644
+--- a/examples/calc/calc.js
++++ b/examples/calc/calc.js
+@@ -1,4 +1,4 @@
+-#!/usr/bin/env kjscmd
++#!/usr/bin/env kjscmd5
+ 
+ 
+ function Calculator(ui)
+diff --git a/examples/docviewer/docviewer.js b/examples/docviewer/docviewer.js
+index 668c6fd..9a6b554 100644
+--- a/examples/docviewer/docviewer.js
++++ b/examples/docviewer/docviewer.js
+@@ -1,4 +1,4 @@
+-#!/usr/bin/env kjscmd
++#!/usr/bin/env kjscmd5
+ 
+ // Load the view
+ var uiLoader = new QUiLoader();
+diff --git a/examples/fancy/fancy.js b/examples/fancy/fancy.js
+index bd5a644..c26d7e4 100644
+--- a/examples/fancy/fancy.js
++++ b/examples/fancy/fancy.js
+@@ -1,4 +1,4 @@
+-#!/usr/bin/env kjscmd
++#!/usr/bin/env kjscmd5
+ 
+ /* This file is part of the KDE libraries
+     Copyright (C) 2005, 2006 KJSEmbed Authors
+diff --git a/examples/grammar/grammar.js b/examples/grammar/grammar.js
+index 7f3ee1e..c721279 100644
+--- a/examples/grammar/grammar.js
++++ b/examples/grammar/grammar.js
+@@ -1,4 +1,4 @@
+-#!/usr/bin/env kjscmd
++#!/usr/bin/env kjscmd5
+ 
+ var failures = 0;
+ var total = 0;
+diff --git a/examples/scribble/scribble.js b/examples/scribble/scribble.js
+index 80fc97d..6ba72aa 100644
+--- a/examples/scribble/scribble.js
++++ b/examples/scribble/scribble.js
+@@ -1,4 +1,4 @@
+-#!/usr/bin/env kjscmd
++#!/usr/bin/env kjscmd5
+ 
+ function scribble() {
+ 
+diff --git a/examples/tests/statictest.js b/examples/tests/statictest.js
+index 923cfb5..46c96e2 100644
+--- a/examples/tests/statictest.js
++++ b/examples/tests/statictest.js
+@@ -1,4 +1,4 @@
+-#!/bin/env kjscmd
++#!/bin/env kjscmd5
+ /* This file is part of the KDE libraries
+     Copyright (C) 2005, 2006 KJSEmbed Authors
+     See included AUTHORS file.
+diff --git a/examples/tests/uitest.js b/examples/tests/uitest.js
+index 9f55ecb..c6879a3 100644
+--- a/examples/tests/uitest.js
++++ b/examples/tests/uitest.js
+@@ -1,4 +1,4 @@
+-#!/bin/env kjscmd
++#!/bin/env kjscmd5
+ /* This file is part of the KDE libraries
+     Copyright (C) 2005, 2006 KJSEmbed Authors
+     See included AUTHORS file.
+diff --git a/examples/tests/uitest2.js b/examples/tests/uitest2.js
+index c92d959..6a298ca 100644
+--- a/examples/tests/uitest2.js
++++ b/examples/tests/uitest2.js
+@@ -1,4 +1,4 @@
+-#!/bin/env kjscmd
++#!/bin/env kjscmd5
+ /* This file is part of the KDE libraries
+     Copyright (C) 2005, 2006 KJSEmbed Authors
+     See included AUTHORS file.

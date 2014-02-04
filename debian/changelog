@@ -1,0 +1,8 @@
+kjsembed (4.95.0-0ubuntu1) trusty; urgency=low
+
+  [ Jonathan Riddell ]
+  * Initial release
+  * Add rename-kjsembed.diff from upstream
+  * Add rename-kjsembed2.diff https://git.reviewboard.kde.org/r/115222/
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Sat, 11 Jan 2014 10:35:49 +0000

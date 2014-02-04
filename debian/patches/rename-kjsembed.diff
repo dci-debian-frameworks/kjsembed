@@ -1,0 +1,460 @@
+commit a310819d576e267e54bd5c965eeda78afb87ed9b
+Author: Hrvoje Senjan <hrvoje.senjan@gmail.com>
+Date:   Tue Jan 21 18:20:26 2014 +0100
+
+    Append 5 to kjscmd & it's manpage
+    
+    This is done to to make kjsembed not collide with
+    kdelibs(4) when installed to same prefix.
+    
+    REVIEW: 115134
+
+diff --git a/docs/kjscmd/CMakeLists.txt b/docs/kjscmd/CMakeLists.txt
+index eda31bf..181bb79 100644
+--- a/docs/kjscmd/CMakeLists.txt
++++ b/docs/kjscmd/CMakeLists.txt
+@@ -1 +1 @@
+-kdoctools_create_manpage(man-kjscmd.1.docbook 1 INSTALL_DESTINATION ${MAN_INSTALL_DIR})
++kdoctools_create_manpage(man-kjscmd5.1.docbook 1 INSTALL_DESTINATION ${MAN_INSTALL_DIR})
+diff --git a/docs/kjscmd/man-kjscmd.1.docbook b/docs/kjscmd/man-kjscmd.1.docbook
+deleted file mode 100644
+index 5a7fd02..0000000
+--- a/docs/kjscmd/man-kjscmd.1.docbook
++++ /dev/null
+@@ -1,206 +0,0 @@
+-<?xml version="1.0" ?>
+-<!DOCTYPE refentry PUBLIC "-//KDE//DTD DocBook XML V4.2-Based Variant V1.1//EN" "dtd/kdex.dtd" [
+-  <!ENTITY % English "INCLUDE"><!-- change language only here -->
+-]>
+-
+-<refentry>
+-
+-<refentryinfo>
+-<title>&kde; User's Manual</title>
+-
+-<!-- with help from http://linuxcommand.org/man_pages/kjscmd1.html -->
+-
+-<author>
+-<firstname>Harri</firstname>
+-<surname>Porten</surname>
+-<affiliation>
+-<address><email>porten@kde.org</email></address>
+-</affiliation>
+-</author>
+-
+-<date>2008-10-16</date>
+-<releaseinfo>0.01.01</releaseinfo>
+-
+-</refentryinfo>
+-
+-<refmeta>
+-<refentrytitle><command>kjscmd</command></refentrytitle>
+-<manvolnum>1</manvolnum>
+-</refmeta>
+-
+-<refnamediv>
+-<refname><command>kjscmd</command></refname>
+-<refpurpose>&kde; KJSEmbed interpreter</refpurpose>
+-</refnamediv>
+-
+-<refsynopsisdiv>
+-<title>Synopsis</title>
+-
+-<cmdsynopsis>
+-<command>kjscmd</command>
+-
+-<arg choice="opt">--help</arg>
+-<!--
+-<arg choice="opt">Generic-options</arg>
+-<arg choice="opt">Qt-options</arg>
+-<arg choice="opt">KDE-options</arg>
+--->
+-<group>
+-<arg choice="opt">-e</arg>
+-<arg choice="opt">--exec</arg>
+-</group>
+-<group>
+-<arg choice="opt">-i</arg>
+-<arg choice="opt">-interactive</arg>
+-</group>
+-<group>
+-<arg choice="opt">-n</arg>
+-<arg choice="opt">-no-kde</arg>
+-</group>
+-<arg choice="opt">file</arg>
+-</cmdsynopsis>
+-</refsynopsisdiv>
+-
+-<refsect1>
+-<title>Description</title>
+-
+-<para><command>kjscmd</command> is a tool for launching KJSEmbed scripts from the command line.
+-It will run the scripts contained in the named <parameter>file</parameter> using KJSEmbed.
+-It does not accept - (stdin) as a <parameter>file</parameter>.
+-</para>
+-</refsect1>
+-<!--
+-<refsect1>
+-<title>Generic Options</title>
+-<para>
+-<variablelist>
+-
+-<varlistentry>
+-<term><option>- -author</option></term>
+-<listitem>
+-<para>
+-Show author information.
+-</para>
+-</listitem>
+-</varlistentry>
+-
+-<varlistentry>
+-<term><option>- -help</option></term>
+-<listitem>
+-<para>
+-Show help about options.
+-</para>
+-</listitem>
+-</varlistentry>
+-
+-<varlistentry>
+-<term><option>- -help-all</option></term>
+-<listitem>
+-<para>
+-Show all options.
+-</para>
+-</listitem>
+-</varlistentry>
+-
+-<varlistentry>
+-<term><option>- -help-kde</option></term>
+-<listitem>
+-<para>
+-Show KDE specific options.
+-</para>
+-
+-
+-</listitem>
+-</varlistentry>
+-
+-<varlistentry>
+-<term><option>- -help-qt</option></term>
+-<listitem>
+-<para>
+-Show Qt specific options.
+-</para>
+-</listitem>
+-</varlistentry>
+-
+-<varlistentry>
+-<term><option>- -license</option></term>
+-<listitem>
+-<para>
+-Show license information.
+-</para>
+-</listitem>
+-</varlistentry>
+-
+-<varlistentry>
+-<term><option>-v</option><option>- -version</option></term>
+-<listitem>
+-<para>
+-Show version information
+-</para>
+-</listitem>
+-</varlistentry>
+-
+-</variablelist>
+-</para>
+-</refsect1>
+--->
+-
+-<refsect1>
+-<title>Application Options</title>
+-<variablelist>
+-
+-<varlistentry>
+-<term><option>-e</option>,<option>--exec</option></term>
+-<listitem>
+-<para>
+-execute script in <parameter>file</parameter> without gui support.
+-</para>
+-</listitem>
+-</varlistentry>
+-
+-<varlistentry>
+-<term><option>-i</option>,<option>--interactive</option></term>
+-<listitem>
+-<para>start interactive <command>kjs</command> interpreter.</para>
+-</listitem>
+-</varlistentry>
+-
+-<varlistentry>
+-<term><option>-n</option>,<option>--no-kde</option></term>
+-<listitem>
+-<para>start without &kde; KApplication support.</para>
+-</listitem>
+-</varlistentry>
+-
+-
+-</variablelist>
+-
+-</refsect1>
+-
+-<refsect1>
+-<title>Usage</title>
+-<para>
+-The most common way to run <command>kjscmd</command> is simply as
+-<literallayout>
+-<userinput><command>kjscmd</command> <parameter>file</parameter>
+-</userinput>
+-</literallayout>
+-If no parameter <parameter>file</parameter> is used, it executes a predefined test 
+-script that measures the start speed of <command>kjscmd</command>.
+-</para>
+-</refsect1>
+-
+-<refsect1>
+-<title>See Also</title>
+-<para><replaceable>kjs</replaceable>(1)</para>
+-</refsect1>
+-
+-<refsect1>
+-<title>Bugs</title>
+-<para>There are probably tons of bugs. Use <ulink url="http://bugs.kde.org">bugs.kde.org</ulink> to report them.</para>
+-</refsect1>
+-
+-</refentry>
+-
+-
+-
+diff --git a/docs/kjscmd/man-kjscmd5.1.docbook b/docs/kjscmd/man-kjscmd5.1.docbook
+new file mode 100644
+index 0000000..26caa5d
+--- /dev/null
++++ b/docs/kjscmd/man-kjscmd5.1.docbook
+@@ -0,0 +1,206 @@
++<?xml version="1.0" ?>
++<!DOCTYPE refentry PUBLIC "-//KDE//DTD DocBook XML V4.2-Based Variant V1.1//EN" "dtd/kdex.dtd" [
++  <!ENTITY % English "INCLUDE"><!-- change language only here -->
++]>
++
++<refentry>
++
++<refentryinfo>
++<title>&kde; User's Manual</title>
++
++<!-- with help from http://linuxcommand.org/man_pages/kjscmd1.html -->
++
++<author>
++<firstname>Harri</firstname>
++<surname>Porten</surname>
++<affiliation>
++<address><email>porten@kde.org</email></address>
++</affiliation>
++</author>
++
++<date>2008-10-16</date>
++<releaseinfo>0.01.01</releaseinfo>
++
++</refentryinfo>
++
++<refmeta>
++<refentrytitle><command>kjscmd5</command></refentrytitle>
++<manvolnum>1</manvolnum>
++</refmeta>
++
++<refnamediv>
++<refname><command>kjscmd5</command></refname>
++<refpurpose>&kde; KJSEmbed interpreter</refpurpose>
++</refnamediv>
++
++<refsynopsisdiv>
++<title>Synopsis</title>
++
++<cmdsynopsis>
++<command>kjscmd5</command>
++
++<arg choice="opt">--help</arg>
++<!--
++<arg choice="opt">Generic-options</arg>
++<arg choice="opt">Qt-options</arg>
++<arg choice="opt">KDE-options</arg>
++-->
++<group>
++<arg choice="opt">-e</arg>
++<arg choice="opt">--exec</arg>
++</group>
++<group>
++<arg choice="opt">-i</arg>
++<arg choice="opt">-interactive</arg>
++</group>
++<group>
++<arg choice="opt">-n</arg>
++<arg choice="opt">-no-kde</arg>
++</group>
++<arg choice="opt">file</arg>
++</cmdsynopsis>
++</refsynopsisdiv>
++
++<refsect1>
++<title>Description</title>
++
++<para><command>kjscmd5</command> is a tool for launching KJSEmbed scripts from the command line.
++It will run the scripts contained in the named <parameter>file</parameter> using KJSEmbed.
++It does not accept - (stdin) as a <parameter>file</parameter>.
++</para>
++</refsect1>
++<!--
++<refsect1>
++<title>Generic Options</title>
++<para>
++<variablelist>
++
++<varlistentry>
++<term><option>- -author</option></term>
++<listitem>
++<para>
++Show author information.
++</para>
++</listitem>
++</varlistentry>
++
++<varlistentry>
++<term><option>- -help</option></term>
++<listitem>
++<para>
++Show help about options.
++</para>
++</listitem>
++</varlistentry>
++
++<varlistentry>
++<term><option>- -help-all</option></term>
++<listitem>
++<para>
++Show all options.
++</para>
++</listitem>
++</varlistentry>
++
++<varlistentry>
++<term><option>- -help-kde</option></term>
++<listitem>
++<para>
++Show KDE specific options.
++</para>
++
++
++</listitem>
++</varlistentry>
++
++<varlistentry>
++<term><option>- -help-qt</option></term>
++<listitem>
++<para>
++Show Qt specific options.
++</para>
++</listitem>
++</varlistentry>
++
++<varlistentry>
++<term><option>- -license</option></term>
++<listitem>
++<para>
++Show license information.
++</para>
++</listitem>
++</varlistentry>
++
++<varlistentry>
++<term><option>-v</option><option>- -version</option></term>
++<listitem>
++<para>
++Show version information
++</para>
++</listitem>
++</varlistentry>
++
++</variablelist>
++</para>
++</refsect1>
++-->
++
++<refsect1>
++<title>Application Options</title>
++<variablelist>
++
++<varlistentry>
++<term><option>-e</option>,<option>--exec</option></term>
++<listitem>
++<para>
++execute script in <parameter>file</parameter> without gui support.
++</para>
++</listitem>
++</varlistentry>
++
++<varlistentry>
++<term><option>-i</option>,<option>--interactive</option></term>
++<listitem>
++<para>start interactive <command>kjs</command> interpreter.</para>
++</listitem>
++</varlistentry>
++
++<varlistentry>
++<term><option>-n</option>,<option>--no-kde</option></term>
++<listitem>
++<para>start without &kde; KApplication support.</para>
++</listitem>
++</varlistentry>
++
++
++</variablelist>
++
++</refsect1>
++
++<refsect1>
++<title>Usage</title>
++<para>
++The most common way to run <command>kjscmd5</command> is simply as
++<literallayout>
++<userinput><command>kjscmd5</command> <parameter>file</parameter>
++</userinput>
++</literallayout>
++If no parameter <parameter>file</parameter> is used, it executes a predefined test 
++script that measures the start speed of <command>kjscmd5</command>.
++</para>
++</refsect1>
++
++<refsect1>
++<title>See Also</title>
++<para><replaceable>kjs5</replaceable>(1)</para>
++</refsect1>
++
++<refsect1>
++<title>Bugs</title>
++<para>There are probably tons of bugs. Use <ulink url="http://bugs.kde.org">bugs.kde.org</ulink> to report them.</para>
++</refsect1>
++
++</refentry>
++
++
++
+diff --git a/src/kjscmd/CMakeLists.txt b/src/kjscmd/CMakeLists.txt
+index a659f0f..7ade1cc 100644
+--- a/src/kjscmd/CMakeLists.txt
++++ b/src/kjscmd/CMakeLists.txt
+@@ -4,10 +4,10 @@ set(kjscmd_SRCS kjscmd.cpp )
+ qt5_add_resources(kjscmd_SRCS kjscmd.qrc)
+ 
+ # This is a developer tool, not intended for normal user installs
+-add_executable(kjscmd ${kjscmd_SRCS})
+-target_link_libraries(kjscmd
++add_executable(kjscmd5 ${kjscmd_SRCS})
++target_link_libraries(kjscmd5
+     Qt5::Widgets # QApplication::lastWindowClosed
+     KF5::JsEmbed
+ )
+ 
+-install(TARGETS kjscmd EXPORT KF5JsEmbedTargets ${INSTALL_TARGETS_DEFAULT_ARGS})
++install(TARGETS kjscmd5 EXPORT KF5JsEmbedTargets ${INSTALL_TARGETS_DEFAULT_ARGS})

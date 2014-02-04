@@ -1,0 +1,4 @@
+usr/lib/*/libKF5JsEmbed.so
+usr/lib/*/cmake/
+usr/bin/kjscmd5
+usr/bin/kjsconsole
