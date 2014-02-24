@@ -4,21 +4,23 @@ Priority: optional
 Maintainer: Kubuntu Developers <kubuntu-devel@lists.ubuntu.com>
 XSBC-Original-Maintainer: Jonathan Riddell <jriddell@ubuntu.com>
 Build-Depends: debhelper (>= 9.0.0), cmake, pkg-kde-tools,
- extra-cmake-modules, qtbase5-dev, qttools5-dev, libkf5kjs-dev, kdoctools-dev,
- libkf5i18n-dev, libqt5svg5-dev, kdoctools-dev
+ extra-cmake-modules (>= 0.0.10), qtbase5-dev, qttools5-dev,
+ libkf5kjs-dev (>= 4.96.0), kdoctools-dev (>= 4.96.0),
+ libkf5i18n-dev (>= 4.96.0), libqt5svg5-dev
 Standards-Version: 3.9.5
 Homepage: https://projects.kde.org/projects/frameworks/kjsembed
 
 Package: libkf5jsembed-dev
 Section: libdevel
 Architecture: any
-Depends: libkf5jsembed5 (= ${binary:Version}), ${misc:Depends}
+Depends: libkf5jsembed4 (= ${binary:Version}), ${shlibs:Depends},
+ ${misc:Depends}
 Description: Embedded JS library for Qt
  kjsembed allows you to embed JavaScript in your Qt application.
  .
  Contains development files for kjsembed.
  
-Package: libkf5jsembed5
+Package: libkf5jsembed4
 Architecture: any
 Multi-Arch: same
 Pre-Depends: ${misc:Pre-Depends}
@@ -26,12 +28,12 @@ Depends: ${shlibs:Depends}, ${misc:Depends}
 Description: Embedded JS library for Qt
  kjsembed allows you to embed JavaScript in your Qt application.
 
-Package: libkf5jsembed5-dbg
+Package: libkf5jsembed4-dbg
 Priority: extra
 Section: debug
 Architecture: any
 Multi-Arch: same
-Depends: libkf5jsembed5 (= ${binary:Version}), ${misc:Depends}
+Depends: libkf5jsembed4 (= ${binary:Version}), ${misc:Depends}
 Description: Embedded JS library for Qt
  kjsembed allows you to embed JavaScript in your Qt application.
  .
