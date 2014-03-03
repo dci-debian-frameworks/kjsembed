@@ -1,5 +1,5 @@
 # SymbolsHelper-Confirmed: 4.96.0 amd64
-libKF5JsEmbed.so.4 libkf5jsembed4 #MINVER#
+libKF5JsEmbed.so.5 libkf5jsembed5 #MINVER#
  _ZN3KJS6JSCell4markEv@Base 4.96.0
  _ZN3KJS6JSCellD0Ev@Base 4.96.0
  _ZN3KJS6JSCellD1Ev@Base 4.96.0
