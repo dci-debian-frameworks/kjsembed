@@ -27,7 +27,7 @@ License: LGPL-2+
  On Debian systems, the complete text of the GNU Library General
  Public License version 2 can be found in "/usr/share/common-licenses/LGPL-2".
 
-Files: debian/*       
+Files: debian/*
 Copyright: 2014 Jonathan Riddell <jriddell@ubuntu.com>
 License: GPL-2+
  This package is free software; you can redistribute it and/or modify
@@ -45,4 +45,3 @@ License: GPL-2+
  .
  On Debian systems, the complete text of the GNU General
  Public License version 2 can be found in "/usr/share/common-licenses/GPL-2".
- 

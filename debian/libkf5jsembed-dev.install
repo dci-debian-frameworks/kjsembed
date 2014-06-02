@@ -1,6 +1,6 @@
-usr/lib/*/libKF5JsEmbed.so
-usr/lib/*/cmake/
 usr/bin/kjscmd5
 usr/bin/kjsconsole
 usr/include/KF5/*
+usr/lib/*/cmake/
+usr/lib/*/libKF5JsEmbed.so
 usr/lib/*/qt5/mkspecs/modules/*
