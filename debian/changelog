@@ -7,6 +7,9 @@ kjsembed (4.100.0-0ubuntu1) UNRELEASED; urgency=medium
   * Bump depends versions
   * Bump depends versions
 
+  [ Harald Sitter ]
+  * Add libkf5jsembed5-data for translations
+
  -- Jonathan Riddell <jriddell@ubuntu.com>  Mon, 02 Jun 2014 13:48:16 +0100
 
 kjsembed (4.99.0-0ubuntu1) trusty; urgency=medium
