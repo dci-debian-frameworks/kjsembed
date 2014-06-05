@@ -31,7 +31,7 @@ Description: Embedded JS library for Qt
 Package: libkf5jsembed5
 Architecture: any
 Depends: ${misc:Depends}, ${shlibs:Depends},
- libkf5jsembed5-data (= ${binary:Version}),
+ libkf5jsembed5-data (= ${source:Version}),
 Description: Embedded JS library for Qt
  kjsembed allows you to embed JavaScript in your Qt application.
 Multi-Arch: same
