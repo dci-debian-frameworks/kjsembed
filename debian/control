@@ -29,7 +29,6 @@ Description: Embedded JS library for Qt
  Contains development files for kjsembed.
 
 Package: libkf5jsembed5
-Section: libdevel
 Architecture: any
 Depends: ${misc:Depends}, ${shlibs:Depends},
  libkf5jsembed5-data (= ${binary:Version}),
