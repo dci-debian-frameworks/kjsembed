@@ -5,10 +5,9 @@ kjsembed (4.100.0-0ubuntu1) UNRELEASED; urgency=medium
 
   [ Scarlett Clark ]
   * Bump depends versions
-  * Bump depends versions
 
   [ Harald Sitter ]
-  * Add libkf5jsembed5-data for translations
+  * Add libkf5jsembed-data for translations
   * Remove useless Pre-Depends fields used for multiarch compat in
     releases older than trusty
   * Remove incorrect Section fields
