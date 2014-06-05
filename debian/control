@@ -36,11 +36,9 @@ Depends: ${misc:Depends}, ${shlibs:Depends},
 Description: Embedded JS library for Qt
  kjsembed allows you to embed JavaScript in your Qt application.
 Multi-Arch: same
-Pre-Depends: ${misc:Pre-Depends}
 
 Package: libkf5jsembed5-data
 Architecture: all
-Pre-Depends: ${misc:Pre-Depends}
 Depends: ${misc:Depends}, ${shlibs:Depends}
 Multi-Arch: foreign
 Description: Embedded JS library for Qt
