@@ -1,3 +1,9 @@
+kjsembed (5.1.0-0ubuntu1) UNRELEASED; urgency=medium
+
+  * New upstream release
+
+ -- Scarlett Clark <scarlett@scarlettgatelyclark.com>  Sun, 03 Aug 2014 18:55:34 -0700
+
 kjsembed (5.0.0-0ubuntu2) utopic; urgency=medium
 
   * Update symbols
