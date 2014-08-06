@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 5.0.0 amd64
+# SymbolsHelper-Confirmed: 5.1.0 armhf
 libKF5JsEmbed.so.5 libkf5jsembed5 #MINVER#
  (arch=!armhf)_ZN3KJS6JSCell4markEv@Base 4.96.0
  _ZN3KJS7JSValueD0Ev@Base 4.96.0
@@ -239,6 +239,7 @@ libKF5JsEmbed.so.5 libkf5jsembed5 #MINVER#
  _ZNK8KJSEmbed6Engine9addObjectEP7QObjectRKN3KJS7UStringE@Base 4.96.0
  _ZNK8KJSEmbed6Engine9constructERKN3KJS7UStringERKNS1_4ListE@Base 4.96.0
  _ZNK8KJSEmbed9SlotProxy10metaObjectEv@Base 4.96.0
+ (optional=templinst)_ZSt4swapIN8QVariant7PrivateEEvRT_S3_@Base 5.1.0
  _ZTI10QByteArray@Base 4.96.0
  _ZTI11QDomComment@Base 4.96.0
  _ZTI11QDomElement@Base 4.96.0
@@ -267,7 +268,6 @@ libKF5JsEmbed.so.5 libkf5jsembed5 #MINVER#
  _ZTI8QVariant@Base 4.96.0
  _ZTI9QGradient@Base 4.96.0
  _ZTIN14WTFNoncopyable11NoncopyableE@Base 4.96.0
- _ZTIN3KJS6JSCellE@Base 4.96.0
  _ZTIN3KJS7JSValueE@Base 4.96.0
  _ZTIN8KJSEmbed11ActionGroupE@Base 4.96.0
  _ZTIN8KJSEmbed11SlotBindingE@Base 4.96.0
@@ -317,7 +317,6 @@ libKF5JsEmbed.so.5 libkf5jsembed5 #MINVER#
  _ZTS8QVariant@Base 4.96.0
  _ZTS9QGradient@Base 4.96.0
  _ZTSN14WTFNoncopyable11NoncopyableE@Base 4.96.0
- _ZTSN3KJS6JSCellE@Base 4.96.0
  _ZTSN3KJS7JSValueE@Base 4.96.0
  _ZTSN8KJSEmbed11ActionGroupE@Base 4.96.0
  _ZTSN8KJSEmbed11SlotBindingE@Base 4.96.0
@@ -339,7 +338,6 @@ libKF5JsEmbed.so.5 libkf5jsembed5 #MINVER#
  _ZTSN8KJSEmbed9SlotProxyE@Base 4.96.0
  _ZTSN8KJSEmbed9SvgWidgetE@Base 4.96.0
  _ZTSPK9QGradient@Base 4.96.0
- _ZTVN3KJS6JSCellE@Base 4.96.0
  _ZTVN3KJS7JSValueE@Base 4.96.0
  _ZTVN8KJSEmbed11ActionGroupE@Base 4.96.0
  _ZTVN8KJSEmbed11SlotBindingE@Base 4.96.0
