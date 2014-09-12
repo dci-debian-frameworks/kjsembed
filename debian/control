@@ -10,7 +10,7 @@ Build-Depends: cmake,
                libkf5i18n-dev (>= 5.2.0),
                libkf5kjs-dev (>= 5.2.0),
                libqt5svg5-dev,
-               pkg-kde-tools,
+               pkg-kde-tools (>= 0.15.15ubuntu1~),
                qtbase5-dev,
                qttools5-dev
 Standards-Version: 3.9.5
