@@ -12,8 +12,7 @@ Build-Depends: cmake,
                libqt5svg5-dev,
                pkg-kde-tools (>= 0.15.15ubuntu1~),
                qtbase5-dev,
-               qttools5-dev,
-               python
+               qttools5-dev
 Standards-Version: 3.9.5
 Homepage: https://projects.kde.org/projects/frameworks/kjsembed
 Vcs-Browser: http://bazaar.launchpad.net/~kubuntu-packagers/kubuntu-packaging-next/kjsembed
