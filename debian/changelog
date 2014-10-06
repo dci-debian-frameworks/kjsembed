@@ -1,9 +1,10 @@
-kjsembed (5.2.0-0ubuntu1) UNRELEASED; urgency=medium
+kjsembed (5.3.0-0ubuntu1) UNRELEASED; urgency=medium
 
   * New upstream release
   * Use pkg-kde-tools version 3 scripts
+  * New upstream release
 
- -- Jonathan Riddell <jriddell@ubuntu.com>  Thu, 11 Sep 2014 20:43:36 +0000
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Mon, 06 Oct 2014 11:34:22 +0100
 
 kjsembed (5.1.0-0ubuntu2) utopic; urgency=medium
 
