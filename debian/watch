@@ -1,3 +1,3 @@
 version=3
-http://download.kde.org/unstable/frameworks/([\d\.]*)/portingAids/kjsembed-(.*)\.tar\.xz
-http://download.kde.org/stable/frameworks/([\d\.]*)/portingAids/kjsembed-(.*)\.tar\.xz
+http://download.kde.org/unstable/frameworks/([\d.]+)/portingAids/kjsembed-([\d.]+)\.tar\.xz
+http://download.kde.org/stable/frameworks/([\d.]+)/portingAids/kjsembed-([\d.]+)\.tar\.xz
