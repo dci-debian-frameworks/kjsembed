@@ -3,13 +3,18 @@ Upstream-Name: kjsmebed
 Source: https://projects.kde.org/projects/frameworks/kjsembed
 
 Files: *
-       debian/*
-Copyright: 2001,2002,2003,2004,2005,2006 Erik L. Bunce <kde@bunce.us>
- 2001,2002,2003,2004,2005,2006 Ian Reinhart Geiser <geiseri@kde.org>
- 2001,2002,2003,2004,2005,2006 Matt Broadstone <mbroadst@gmail.com>
- 2001,2002,2003,2004,2005,2006 Richard J. Moore <rich@kde.org>
- 2007, 2008 Sebastian Sauer <mail@dipe.org>
- 2014 Jonathan Riddell <jriddell@ubuntu.com>
+Copyright: 2001-2006, Erik L. Bunce <kde@bunce.us>
+           2001-2006, Ian Reinhart Geiser <geiseri@kde.org>
+           2005-2006, KJSEmbed Authors
+           2001-2006, Matt Broadstone <mbroadst@gmail.com>
+           2001-2006, Richard J. Moore <rich@kde.org>
+           2007-2008, Sebastian Sauer <mail@dipe.org>
+License: LGPL-2+
+
+Files: debian/*
+Copyright: 2014, Jonathan Riddell <jriddell@ubuntu.com>
+License: LGPL-2+
+
 License: LGPL-2+
  This library is free software; you can redistribute it and/or
  modify it under the terms of the GNU Library General Public
