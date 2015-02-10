@@ -1,8 +1,8 @@
-kjsembed (5.7.0-0ubuntu1) UNRELEASED; urgency=medium
+kjsembed (5.7.0-0ubuntu1) vivid; urgency=medium
 
   * New upstream release
 
- -- Harald Sitter <sitter@kde.org>  Mon, 09 Feb 2015 09:59:00 +0100
+ -- Harald Sitter <sitter@kde.org>  Tue, 10 Feb 2015 17:03:10 +0100
 
 kjsembed (5.6.0-0ubuntu1) vivid; urgency=medium
 
