@@ -1,3 +1,9 @@
+kjsembed (5.8.0-0ubuntu2) vivid; urgency=medium
+
+  * Update symbols
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Thu, 19 Mar 2015 16:20:35 +0100
+
 kjsembed (5.8.0-0ubuntu1) vivid; urgency=medium
 
   * New upstream release
