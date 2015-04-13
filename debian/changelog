@@ -1,8 +1,8 @@
-kjsembed (5.9.0-0ubuntu1) UNRELEASED; urgency=medium
+kjsembed (5.9.0-0ubuntu1) vivid; urgency=medium
 
   * New upstream release
 
- -- Scarlett Clark <sgclark@kubuntu.org>  Fri, 10 Apr 2015 11:00:49 -0700
+ -- Scarlett Clark <sgclark@kubuntu.org>  Mon, 13 Apr 2015 23:20:44 +0200
 
 kjsembed (5.8.0-0ubuntu2) vivid; urgency=medium
 
