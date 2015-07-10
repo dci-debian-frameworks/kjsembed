@@ -1,8 +1,17 @@
 kjsembed (5.12.0-0ubuntu1) UNRELEASED; urgency=medium
 
   * New upstream release
+  * Fix merge, remove unused broken backport.
 
  -- Scarlett Clark <sgclark@kubuntu.org>  Fri, 10 Jul 2015 08:16:49 -0700
+
+kjsembed (5.11.0-1) unstable; urgency=medium
+
+  * New upstream release (5.10.0).
+  * Update symbols files from buildds logs (5.9.0-1).
+  * New upstream release (5.11.0).
+
+ -- Maximiliano Curia <maxy@debian.org>  Sun, 28 Jun 2015 15:08:21 +0200
 
 kjsembed (5.10.0-0ubuntu1) wily; urgency=medium
 
