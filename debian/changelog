@@ -1,8 +1,8 @@
-kjsembed (5.14.0-1~) UNRELEASED; urgency=medium
+kjsembed (5.14.0-1) unstable; urgency=medium
 
   * New upstream release (5.14.0).
 
- -- Maximiliano Curia <maxy@debian.org>  Mon, 14 Sep 2015 00:25:38 +0200
+ -- Maximiliano Curia <maxy@debian.org>  Tue, 15 Sep 2015 13:48:43 +0200
 
 kjsembed (5.13.0-3) unstable; urgency=medium
 
