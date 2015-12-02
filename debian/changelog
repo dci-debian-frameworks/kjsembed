@@ -1,3 +1,16 @@
+kjsembed (5.16.0-1) unstable; urgency=medium
+
+  * New upstream release (5.16.0).
+  * Update symbols files from buildds logs (5.15.0-1).
+
+ -- Maximiliano Curia <maxy@debian.org>  Mon, 30 Nov 2015 12:13:02 +0100
+
+kjsembed (5.15.0-1) unstable; urgency=medium
+
+  * New upstream release (5.15.0).
+
+ -- Maximiliano Curia <maxy@debian.org>  Fri, 09 Oct 2015 19:16:15 +0200
+
 kjsembed (5.15.0-0ubuntu3) UNRELEASED; urgency=medium
 
   * Fix this merge madness. 
@@ -20,17 +33,50 @@ kjsembed (5.15.0-0ubuntu1) wily; urgency=medium
 
  -- Jonathan Riddell <jriddell@ubuntu.com>  Wed, 07 Oct 2015 13:52:28 +0100
 
+kjsembed (5.14.0-1) unstable; urgency=medium
+
+  * New upstream release (5.14.0).
+
+ -- Maximiliano Curia <maxy@debian.org>  Tue, 15 Sep 2015 13:48:43 +0200
+
 kjsembed (5.14.0-0ubuntu1) wily; urgency=medium
 
   * new upstream release
 
  -- Clive Johnston <clivejo@aol.com>  Thu, 17 Sep 2015 13:22:29 +0100
 
+kjsembed (5.13.0-3) unstable; urgency=medium
+
+  * Team upload.
+  * Update symbols from 5.13.0-2 buildlogs
+
+ -- Scott Kitterman <scott@kitterman.com>  Fri, 04 Sep 2015 10:23:41 -0400
+
+kjsembed (5.13.0-2) unstable; urgency=medium
+
+  * Update symbols from 5.13.0-1 buildlogs.
+
+ -- Maximiliano Curia <maxy@debian.org>  Tue, 01 Sep 2015 12:37:02 +0200
+
+kjsembed (5.13.0-1) unstable; urgency=medium
+
+  * New upstream release (5.13.0).
+
+ -- Maximiliano Curia <maxy@debian.org>  Mon, 31 Aug 2015 11:49:07 +0200
+
 kjsembed (5.13.0-0ubuntu1) wily; urgency=medium
 
   * new upstream release
 
  -- Jonathan Riddell <jriddell@ubuntu.com>  Mon, 10 Aug 2015 13:24:13 +0200
+
+kjsembed (5.12.0-1) unstable; urgency=medium
+
+  * New upstream release (5.12.0).
+  * Update symbols files for gcc5 compatibility. (Closes: #791743)
+    Thanks to Martin Michlmayr
+
+ -- Maximiliano Curia <maxy@debian.org>  Thu, 09 Jul 2015 12:43:21 +0200
 
 kjsembed (5.12.0-0ubuntu2) wily; urgency=medium
 
