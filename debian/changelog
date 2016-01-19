@@ -1,9 +1,10 @@
-kjsembed (5.16.0-2) UNRELEASED; urgency=medium
+kjsembed (5.18.0-1~) UNRELEASED; urgency=medium
 
   * Update symbols files from buildds logs (5.16.0-1).
   * Update symbols files.
+  * New upstream release (5.18.0).
 
- -- Maximiliano Curia <maxy@debian.org>  Mon, 07 Dec 2015 14:36:10 +0100
+ -- Maximiliano Curia <maxy@debian.org>  Tue, 19 Jan 2016 20:58:27 +0100
 
 kjsembed (5.16.0-1) unstable; urgency=medium
 
