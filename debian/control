@@ -48,14 +48,3 @@ Description: Embedded JS library for Qt
  kjsembed allows you to embed JavaScript in your Qt application.
  .
  This package contains the translations.
-
-Package: libkf5jsembed5-dbg
-Priority: extra
-Section: debug
-Architecture: any
-Multi-Arch: same
-Depends: libkf5jsembed5 (= ${binary:Version}), ${misc:Depends}
-Description: Embedded JS library for Qt
- kjsembed allows you to embed JavaScript in your Qt application.
- .
- Contains debug symbols for kf5jsembed.
