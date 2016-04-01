@@ -1,6 +1,6 @@
-kjsembed (5.20.0-1~1.gbp8de074) UNRELEASED; urgency=medium
+kjsembed (5.20.0-1~2.gbp4fbc79) UNRELEASED; urgency=medium
 
-  ** SNAPSHOT build @8de07479bc9440193dd489bc13db406d402855e9 **
+  ** SNAPSHOT build @4fbc79f965021a0c8acdcac7472642d378af4774 **
 
   [ Maximiliano Curia ]
   * Replace the "Historical name" ddeb-migration by its "Modern, clearer" replacement dbgsym-migration.
@@ -13,8 +13,9 @@ kjsembed (5.20.0-1~1.gbp8de074) UNRELEASED; urgency=medium
   * Update symbols files from buildds logs (5.19.0-1).
 
   [ Maximiliano Curia ]
+  * Update acc test script
 
- -- Maximiliano Curia <maxy@gnuservers.com.ar>  Wed, 30 Mar 2016 11:07:43 +0200
+ -- Maximiliano Curia <maxy@gnuservers.com.ar>  Fri, 01 Apr 2016 17:07:18 +0200
 
 kjsembed (5.19.0-1) experimental; urgency=medium
 
