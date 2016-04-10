@@ -1,3 +1,27 @@
+kjsembed (5.20.0-1~5.gbp0f8262) UNRELEASED; urgency=medium
+
+  ** SNAPSHOT build @0f82621f20f233e8786ad0f5fcb57681fb9e48e7 **
+
+  [ Maximiliano Curia ]
+  * Replace the "Historical name" ddeb-migration by its "Modern, clearer" replacement dbgsym-migration.
+  * Add upstream metadata (DEP-12)
+  * debian/control: Update Vcs-Browser and Vcs-Git fields
+  * debian/control: Update Vcs-Browser and Vcs-Git fields
+
+  [ Automatic packaging ]
+  * Update build-deps and deps with the info from cmake
+  * Update symbols files from buildds logs (5.19.0-1).
+
+  [ Maximiliano Curia ]
+  * Update acc test script
+  * UNRELEASED
+  * UNRELEASED
+
+  [ Automatic packaging ]
+  * Do the symbols dance
+
+ -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Tue, 05 Apr 2016 12:10:24 +0200
+
 kjsembed (5.19.0-1) experimental; urgency=medium
 
   * New upstream release (5.19.0).
