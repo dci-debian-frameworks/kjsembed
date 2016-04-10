@@ -1,6 +1,6 @@
-kjsembed (5.20.0-1~5.gbp0f8262) UNRELEASED; urgency=medium
+kjsembed (5.21.0-1~1.gbp50dac6) UNRELEASED; urgency=medium
 
-  ** SNAPSHOT build @0f82621f20f233e8786ad0f5fcb57681fb9e48e7 **
+  ** SNAPSHOT build @50dac6a4a5a64333363cd96403749ba0ad628d9c **
 
   [ Maximiliano Curia ]
   * Replace the "Historical name" ddeb-migration by its "Modern, clearer" replacement dbgsym-migration.
@@ -20,7 +20,15 @@ kjsembed (5.20.0-1~5.gbp0f8262) UNRELEASED; urgency=medium
   [ Automatic packaging ]
   * Do the symbols dance
 
- -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Tue, 05 Apr 2016 12:10:24 +0200
+  [ Maximiliano Curia ]
+  * uscan no longer supports more than one main upstream tarball being listed
+
+  [ Automatic packaging ]
+  * Update build-deps and deps with the info from cmake
+
+  [ Maximiliano Curia ]
+
+ -- Maximiliano Curia <maxy@gnuservers.com.ar>  Sun, 10 Apr 2016 10:07:26 +0200
 
 kjsembed (5.19.0-1) experimental; urgency=medium
 
