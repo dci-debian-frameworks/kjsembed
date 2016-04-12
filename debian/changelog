@@ -1,6 +1,6 @@
-kjsembed (5.21.0-1~1.gbp50dac6) UNRELEASED; urgency=medium
+kjsembed (5.21.0-1~2.gbp7253a3) UNRELEASED; urgency=medium
 
-  ** SNAPSHOT build @50dac6a4a5a64333363cd96403749ba0ad628d9c **
+  ** SNAPSHOT build @7253a3eeb6642fcac0c70a4d89f6eb2ae8f5d0b6 **
 
   [ Maximiliano Curia ]
   * Replace the "Historical name" ddeb-migration by its "Modern, clearer" replacement dbgsym-migration.
@@ -11,6 +11,7 @@ kjsembed (5.21.0-1~1.gbp50dac6) UNRELEASED; urgency=medium
   [ Automatic packaging ]
   * Update build-deps and deps with the info from cmake
   * Update symbols files from buildds logs (5.19.0-1).
+  * Bump Standards-Version to 3.9.8
 
   [ Maximiliano Curia ]
   * Update acc test script
@@ -28,7 +29,10 @@ kjsembed (5.21.0-1~1.gbp50dac6) UNRELEASED; urgency=medium
 
   [ Maximiliano Curia ]
 
- -- Maximiliano Curia <maxy@gnuservers.com.ar>  Sun, 10 Apr 2016 10:07:26 +0200
+  [ Mark headers hook ]
+  * Mark private headers
+
+ -- Mark headers hook <maxy+jenkins@gnuservers.com.ar>  Tue, 12 Apr 2016 20:07:13 +0200
 
 kjsembed (5.19.0-1) experimental; urgency=medium
 
