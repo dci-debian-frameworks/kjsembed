@@ -5,25 +5,25 @@ Maintainer: Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Uploaders: Maximiliano Curia <maxy@debian.org>
 Build-Depends: cmake (>= 2.8.11),
                debhelper (>= 9),
-               extra-cmake-modules (>= 5.18.0~),
-               kdoctools-dev (>= 5.18.0~),
-               libkf5i18n-dev (>= 5.18.0~),
-               libkf5kjs-dev (>= 5.18.0~),
+               extra-cmake-modules (>= 5.19.0~),
+               kdoctools-dev (>= 5.19.0~),
+               libkf5i18n-dev (>= 5.19.0~),
+               libkf5kjs-dev (>= 5.19.0~),
                libqt5svg5-dev (>= 5.4),
                pkg-kde-tools (>= 0.15.15ubuntu1~),
                qtbase5-dev (>= 5.4),
                qttools5-dev (>= 5.4)
 Standards-Version: 3.9.6
 Homepage: https://projects.kde.org/projects/frameworks/kjsembed
-Vcs-Browser: http://anonscm.debian.org/cgit/pkg-kde/frameworks/kjsembed.git
-Vcs-Git: git://anonscm.debian.org/pkg-kde/frameworks/kjsembed.git
+Vcs-Browser: https://anonscm.debian.org/git/pkg-kde/frameworks/kjsembed.git
+Vcs-Git: https://anonscm.debian.org/git/pkg-kde/frameworks/kjsembed.git
 
 Package: libkf5jsembed-dev
 Section: libdevel
 Architecture: any
-Depends: libkf5i18n-dev (>= 5.16.0~),
+Depends: libkf5i18n-dev (>= 5.19.0~),
          libkf5jsembed5 (= ${binary:Version}),
-         libkf5kjs-dev (>= 5.16.0~),
+         libkf5kjs-dev (>= 5.19.0~),
          ${misc:Depends},
          ${shlibs:Depends}
 Description: Embedded JS library for Qt
@@ -48,14 +48,3 @@ Description: Embedded JS library for Qt
  kjsembed allows you to embed JavaScript in your Qt application.
  .
  This package contains the translations.
-
-Package: libkf5jsembed5-dbg
-Priority: extra
-Section: debug
-Architecture: any
-Multi-Arch: same
-Depends: libkf5jsembed5 (= ${binary:Version}), ${misc:Depends}
-Description: Embedded JS library for Qt
- kjsembed allows you to embed JavaScript in your Qt application.
- .
- Contains debug symbols for kf5jsembed.
