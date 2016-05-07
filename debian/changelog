@@ -1,39 +1,20 @@
-kjsembed (5.21.0-1~3.gbp5cb56c) UNRELEASED; urgency=medium
-
-  ** SNAPSHOT build @5cb56c03aecab9406d4f18ccf934ded56580e1f2 **
+kjsembed (5.21.0-1) experimental; urgency=medium
 
   [ Maximiliano Curia ]
   * Replace the "Historical name" ddeb-migration by its "Modern, clearer" replacement dbgsym-migration.
   * Add upstream metadata (DEP-12)
   * debian/control: Update Vcs-Browser and Vcs-Git fields
-  * debian/control: Update Vcs-Browser and Vcs-Git fields
+  * Update acc test script
+  * uscan no longer supports more than one main upstream tarball being listed
 
   [ Automatic packaging ]
   * Update build-deps and deps with the info from cmake
   * Update symbols files from buildds logs (5.19.0-1).
   * Bump Standards-Version to 3.9.8
   * Revert "Mark private headers"
-
-  [ Maximiliano Curia ]
-  * Update acc test script
-  * UNRELEASED
-  * UNRELEASED
-
-  [ Automatic packaging ]
   * Do the symbols dance
 
-  [ Maximiliano Curia ]
-  * uscan no longer supports more than one main upstream tarball being listed
-
-  [ Automatic packaging ]
-  * Update build-deps and deps with the info from cmake
-
-  [ Maximiliano Curia ]
-
-  [ Mark headers hook ]
-  * Mark private headers
-
- -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Sun, 17 Apr 2016 12:04:40 +0200
+ -- Maximiliano Curia <maxy@debian.org>  Sat, 07 May 2016 14:37:29 +0200
 
 kjsembed (5.19.0-1) experimental; urgency=medium
 
