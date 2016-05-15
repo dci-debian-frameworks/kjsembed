@@ -1,3 +1,12 @@
+kjsembed (5.22.0-1~1.gbp64f130) UNRELEASED; urgency=medium
+
+  ** SNAPSHOT build @64f1304d3846ea63c2ea30ddc39983c1b0bc9ffc **
+
+  * Update build-deps and deps with the info from cmake
+  * Update symbols files from buildds logs (5.21.0-1).
+
+ -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Sun, 15 May 2016 13:07:20 +0200
+
 kjsembed (5.21.0-1) experimental; urgency=medium
 
   [ Maximiliano Curia ]
