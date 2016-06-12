@@ -1,3 +1,12 @@
+kjsembed (5.23.0-1~1.gbp23884f) UNRELEASED; urgency=medium
+
+  ** SNAPSHOT build @23884f6b71a1727939b6f285e6dee4c94aca6610 **
+
+  * Update build-deps and deps with the info from cmake
+  * Update symbols files from buildds logs (5.22.0-1).
+
+ -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Mon, 13 Jun 2016 01:07:25 +0200
+
 kjsembed (5.22.0-1) unstable; urgency=medium
 
   [ Automatic packaging ]
