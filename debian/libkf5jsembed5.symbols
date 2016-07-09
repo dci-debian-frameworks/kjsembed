@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 5.23.0 amd64
+# SymbolsHelper-Confirmed: 5.23.0 amd64 hurd-i386 i386
 libKF5JsEmbed.so.5 libkf5jsembed5 #MINVER#
  (arch=!armel !armhf)_ZN3KJS6JSCell4markEv@Base 4.96.0
  _ZN3KJS7JSValueD0Ev@Base 4.96.0
@@ -201,7 +201,7 @@ libKF5JsEmbed.so.5 libkf5jsembed5 #MINVER#
  _ZNK8KJSEmbed6Engine9addObjectEP7QObjectRKN3KJS7UStringE@Base 4.96.0
  _ZNK8KJSEmbed6Engine9constructERKN3KJS7UStringERKNS1_4ListE@Base 4.96.0
  _ZNK8KJSEmbed9SlotProxy10metaObjectEv@Base 4.96.0
- (optional=templinst|arch=armel armhf mips mipsel powerpc)_ZSt4swapIN8QVariant7PrivateEEvRT_S3_@Base 5.1.0
+ (optional=templinst|arch=armel armhf hurd-i386 i386 mips mipsel powerpc)_ZSt4swapIN8QVariant7PrivateEEvRT_S3_@Base 5.1.0
  _ZTI10QByteArray@Base 4.96.0
  _ZTI11QDomComment@Base 4.96.0
  _ZTI11QDomElement@Base 4.96.0
