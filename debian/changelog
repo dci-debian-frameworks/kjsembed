@@ -1,18 +1,19 @@
-kjsembed (5.24.0-1~2.gbp6bd635) UNRELEASED; urgency=medium
+kjsembed (5.25.0-1~1.gbpdd520d) UNRELEASED; urgency=medium
 
-  ** SNAPSHOT build @6bd6356bf23ac9e7992edf470ef805dac0d16e80 **
+  ** SNAPSHOT build @dd520d0e28062b7a82d93187f0cda83b49b8ad4c **
 
   [ Automatic packaging ]
   ** SNAPSHOT build @4b7c4614a2f36b6bbc4136ded6f5992023e315c0 **
 
   * Update build-deps and deps with the info from cmake
   * Update symbols files from buildds logs (5.23.0-1).
+  * Update build-deps and deps with the info from cmake
 
   [ Maximiliano Curia ]
   * Make symbols files gcc 6 compatible.
     Thanks to Lucas Nussbaum for the report (Closes: 831145)
 
- -- Maximiliano Curia <maxy@gnuservers.com.ar>  Sat, 16 Jul 2016 18:07:13 +0200
+ -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Sat, 13 Aug 2016 13:07:12 +0200
 
 kjsembed (5.23.0-1) unstable; urgency=medium
 
