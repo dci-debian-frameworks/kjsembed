@@ -1,9 +1,9 @@
-# SymbolsHelper-Confirmed: 5.23.0 amd64 hurd-i386 i386
+# SymbolsHelper-Confirmed: 5.25.0 amd64 armhf i386
 libKF5JsEmbed.so.5 libkf5jsembed5 #MINVER#
  (arch=!armel !armhf)_ZN3KJS6JSCell4markEv@Base 4.96.0
- _ZN3KJS7JSValueD0Ev@Base 4.96.0
- _ZN3KJS7JSValueD1Ev@Base 4.96.0
- _ZN3KJS7JSValueD2Ev@Base 4.96.0
+ (arch=!armhf)_ZN3KJS7JSValueD0Ev@Base 5.25.0
+ (arch=!armhf)_ZN3KJS7JSValueD1Ev@Base 5.25.0
+ (arch=!armhf)_ZN3KJS7JSValueD2Ev@Base 5.25.0
  _ZN3KJS7UStringC1ERK7QString@Base 4.96.0
  _ZN3KJS7UStringC2ERK7QString@Base 4.96.0
  _ZN8KJSEmbed10extractIntEPN3KJS9ExecStateEPNS0_7JSValueEi@Base 4.96.0
@@ -177,7 +177,7 @@ libKF5JsEmbed.so.5 libkf5jsembed5 #MINVER#
  _ZN8KJSEmbed9SvgWidgetC2EPN3KJS9ExecStateEP10QSvgWidget@Base 4.96.0
  _ZNK3KJS10Identifier7qstringEv@Base 4.96.0
  (optional=gccinternal)_ZNK3KJS7JSValue4typeEv@Base 5.19.0
- (optional=gccinternal)_ZNK3KJS7JSValue8toStringEPNS_9ExecStateE@Base 5.23.0
+ (optional=gccinternal|arch=armhf)_ZNK3KJS7JSValue8toStringEPNS_9ExecStateE@Base 5.23.0
  _ZNK3KJS7UString7qstringEv@Base 4.96.0
  _ZNK3KJS8JSObject11toPrimitiveEPNS_9ExecStateENS_6JSTypeE@Base 4.96.0
  _ZNK8KJSEmbed13ObjectBinding4typeEv@Base 4.96.0
