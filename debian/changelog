@@ -1,3 +1,11 @@
+kjsembed (5.25.0-2~1.gbpd3c423) UNRELEASED; urgency=medium
+
+  ** SNAPSHOT build @d3c423a516854d4026a5ba0b1c4b2edece6d9838 **
+
+  * Update symbols files from buildds logs (5.25.0-1).
+
+ -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Wed, 24 Aug 2016 22:07:27 +0200
+
 kjsembed (5.25.0-1) unstable; urgency=medium
 
   [ Automatic packaging ]
