@@ -1,9 +1,9 @@
-# SymbolsHelper-Confirmed: 5.25.0 amd64 armhf i386 mips mipsel powerpc
+# SymbolsHelper-Confirmed: 5.25.0 amd64 armhf i386 kfreebsd-i386 mips mipsel powerpc
 libKF5JsEmbed.so.5 libkf5jsembed5 #MINVER#
  (arch=!armel !armhf)_ZN3KJS6JSCell4markEv@Base 4.96.0
- (arch=!armhf)_ZN3KJS7JSValueD0Ev@Base 5.25.0
- (arch=!armhf)_ZN3KJS7JSValueD1Ev@Base 5.25.0
- (arch=!armhf)_ZN3KJS7JSValueD2Ev@Base 5.25.0
+ (optional=gccinternal|arch=!armel !armhf)_ZN3KJS7JSValueD0Ev@Base 5.25.0
+ (optional=gccinternal|arch=!armel !armhf)_ZN3KJS7JSValueD1Ev@Base 5.25.0
+ (optional=gccinternal|arch=!armel !armhf)_ZN3KJS7JSValueD2Ev@Base 5.25.0
  _ZN3KJS7UStringC1ERK7QString@Base 4.96.0
  _ZN3KJS7UStringC2ERK7QString@Base 4.96.0
  _ZN8KJSEmbed10extractIntEPN3KJS9ExecStateEPNS0_7JSValueEi@Base 4.96.0
@@ -201,7 +201,7 @@ libKF5JsEmbed.so.5 libkf5jsembed5 #MINVER#
  _ZNK8KJSEmbed6Engine9addObjectEP7QObjectRKN3KJS7UStringE@Base 4.96.0
  _ZNK8KJSEmbed6Engine9constructERKN3KJS7UStringERKNS1_4ListE@Base 4.96.0
  _ZNK8KJSEmbed9SlotProxy10metaObjectEv@Base 4.96.0
- (optional=templinst|arch=armel armhf hurd-i386 i386 mips mipsel powerpc)_ZSt4swapIN8QVariant7PrivateEEvRT_S3_@Base 5.1.0
+ (optional=templinst|arch=armel armhf hurd-i386 i386 kfreebsd-i386 mips mipsel powerpc)_ZSt4swapIN8QVariant7PrivateEEvRT_S3_@Base 5.1.0
  _ZTI10QByteArray@Base 4.96.0
  _ZTI11QDomComment@Base 4.96.0
  _ZTI11QDomElement@Base 4.96.0
