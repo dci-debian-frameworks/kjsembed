@@ -1,11 +1,13 @@
-kjsembed (5.28.0-1~1.gbpc89e54) UNRELEASED; urgency=medium
+kjsembed (5.28.0-1) unstable; urgency=medium
 
-  ** SNAPSHOT build @c89e54a3abe7f29a55523e7b6af477b64c6e38f5 **
-
+  [ Automatic packaging ]
   * Update build-deps and deps with the info from cmake
   * Update symbols files with the buildds logs.
 
- -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Fri, 18 Nov 2016 14:14:45 +0100
+  [ Maximiliano Curia ]
+  * New upstream release (5.28)
+
+ -- Maximiliano Curia <maxy@debian.org>  Fri, 18 Nov 2016 16:08:10 +0100
 
 kjsembed (5.27.0-1) unstable; urgency=medium
 
