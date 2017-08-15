@@ -13,33 +13,11 @@ Build-Depends: cmake (>= 3.0~),
                libqt5svg5-dev (>= 5.7.0~),
                pkg-kde-tools (>= 0.15.15ubuntu1~),
                qtbase5-dev (>= 5.7.0~),
-               qttools5-dev (>= 5.7.0~)
+               qttools5-dev (>= 5.7.0~),
 Standards-Version: 4.0.1
 Homepage: https://projects.kde.org/projects/frameworks/kjsembed
 Vcs-Browser: https://anonscm.debian.org/git/pkg-kde/frameworks/kjsembed.git
 Vcs-Git: https://anonscm.debian.org/git/pkg-kde/frameworks/kjsembed.git
-
-Package: libkf5jsembed-dev
-Section: libdevel
-Architecture: any
-Depends: libkf5i18n-dev (>= 5.37.0~),
-         libkf5jsembed5 (= ${binary:Version}),
-         libkf5kjs-dev (>= 5.37.0~),
-         ${misc:Depends},
-         ${shlibs:Depends}
-Description: Embedded JS library for Qt
- kjsembed allows you to embed JavaScript in your Qt application.
- .
- Contains development files for kjsembed.
-
-Package: libkf5jsembed5
-Architecture: any
-Depends: libkf5jsembed-data (= ${source:Version}),
-         ${misc:Depends},
-         ${shlibs:Depends}
-Description: Embedded JS library for Qt
- kjsembed allows you to embed JavaScript in your Qt application.
-Multi-Arch: same
 
 Package: libkf5jsembed-data
 Architecture: all
@@ -49,3 +27,25 @@ Description: Embedded JS library for Qt
  kjsembed allows you to embed JavaScript in your Qt application.
  .
  This package contains the translations.
+
+Package: libkf5jsembed-dev
+Section: libdevel
+Architecture: any
+Depends: libkf5i18n-dev (>= 5.37.0~),
+         libkf5jsembed5 (= ${binary:Version}),
+         libkf5kjs-dev (>= 5.37.0~),
+         ${misc:Depends},
+         ${shlibs:Depends},
+Description: Embedded JS library for Qt
+ kjsembed allows you to embed JavaScript in your Qt application.
+ .
+ Contains development files for kjsembed.
+
+Package: libkf5jsembed5
+Architecture: any
+Depends: libkf5jsembed-data (= ${source:Version}),
+         ${misc:Depends},
+         ${shlibs:Depends},
+Description: Embedded JS library for Qt
+ kjsembed allows you to embed JavaScript in your Qt application.
+Multi-Arch: same
