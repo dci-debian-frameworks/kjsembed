@@ -5,11 +5,11 @@ Maintainer: Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Uploaders: Maximiliano Curia <maxy@debian.org>
 Build-Depends: cmake (>= 3.0~),
                debhelper (>= 9),
-               extra-cmake-modules (>= 5.37.0~),
+               extra-cmake-modules (>= 5.38.0~),
                kdoctools-dev (>= 5.25.0~),
-               libkf5doctools-dev (>= 5.37.0~),
-               libkf5i18n-dev (>= 5.37.0~),
-               libkf5kjs-dev (>= 5.37.0~),
+               libkf5doctools-dev (>= 5.38.0~),
+               libkf5i18n-dev (>= 5.38.0~),
+               libkf5kjs-dev (>= 5.38.0~),
                libqt5svg5-dev (>= 5.7.0~),
                pkg-kde-tools (>= 0.15.15ubuntu1~),
                qtbase5-dev (>= 5.7.0~),
@@ -31,9 +31,9 @@ Description: Embedded JS library for Qt
 Package: libkf5jsembed-dev
 Section: libdevel
 Architecture: any
-Depends: libkf5i18n-dev (>= 5.37.0~),
+Depends: libkf5i18n-dev (>= 5.38.0~),
          libkf5jsembed5 (= ${binary:Version}),
-         libkf5kjs-dev (>= 5.37.0~),
+         libkf5kjs-dev (>= 5.38.0~),
          ${misc:Depends},
          ${shlibs:Depends},
 Description: Embedded JS library for Qt
