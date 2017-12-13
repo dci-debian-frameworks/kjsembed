@@ -1,7 +1,8 @@
 #!/usr/bin/make -f
 # -*- makefile -*-
 
-include /usr/share/pkg-kde-tools/qt-kde-team/3/debian-qt-kde.mk
+%:
+	dh $@ --with kf5,pkgkde_symbolshelper --buildsystem kf5
 
 override_dh_strip:
-	$(overridden_command) --dbgsym-migration='libkf5jsembed5-dbg (<= 5.19.0-1~~)'
+	dh_strip --dbgsym-migration='libkf5jsembed5-dbg (<= 5.19.0-1~~)'
