@@ -276,16 +276,6 @@ kjsembed (5.18.0-1) experimental; urgency=medium
 
  -- Maximiliano Curia <maxy@debian.org>  Wed, 27 Jan 2016 13:33:44 +0100
 
-kjsembed (5.18.0-0ubuntu1) UNRELEASED; urgency=medium
-
-  [ Scarlett Clark ]
-  * New upstream release Xenial
-
-  [ Philip Muškovac ]
-  * New upstream release
-
- -- Philip Muškovac <yofel@kubuntu.org>  Wed, 06 Jan 2016 15:05:11 +0100
-
 kjsembed (5.16.0-1) unstable; urgency=medium
 
   * New upstream release (5.16.0).
@@ -298,12 +288,6 @@ kjsembed (5.15.0-1) unstable; urgency=medium
   * New upstream release (5.15.0).
 
  -- Maximiliano Curia <maxy@debian.org>  Fri, 09 Oct 2015 19:16:15 +0200
-
-kjsembed (5.15.0-0ubuntu3) UNRELEASED; urgency=medium
-
-  * Fix this merge madness. 
-
- -- Scarlett Clark <sgclark@kubuntu.org>  Wed, 11 Nov 2015 18:04:45 -0800
 
 kjsembed (5.15.0-0ubuntu2) xenial; urgency=medium
 
@@ -383,7 +367,7 @@ kjsembed (5.12.0-0ubuntu1) wily; urgency=medium
     building with GCC 5
 
   [ Scarlett Clark ]
-  * Vivid backport. 
+  * Vivid backport.
 
  -- Scarlett Clark <sgclark@kubuntu.org>  Mon, 03 Aug 2015 14:33:54 +0200
 
